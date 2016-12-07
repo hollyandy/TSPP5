@@ -48,3 +48,6 @@ C:\Users\Фокстрот\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfA
 C:\Users\Фокстрот\Desktop\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
 C:\Users\Фокстрот\Desktop\WpfApplication2\WpfApplication2\obj\Debug\Window6.g.cs
 C:\Users\Фокстрот\Desktop\WpfApplication2\WpfApplication2\obj\Debug\Window6.baml
+C:\Users\Фокстрот\Desktop\TSPP5\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\Фокстрот\Desktop\TSPP5\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+C:\Users\Фокстрот\Desktop\TSPP5\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb

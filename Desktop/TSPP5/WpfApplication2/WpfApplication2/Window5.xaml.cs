@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 
 namespace WpfApplication2
 {
+    /// TSPP Lab 5
     /// <summary>
     /// Interaction logic for Window5.xaml
     /// </summary>
