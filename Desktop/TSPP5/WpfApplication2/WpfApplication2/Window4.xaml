@@ -1,0 +1,87 @@
+﻿<Window x:Class="WpfApplication2.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Модератор" Height="666.632" Width="802.413">
+    <Grid Background="#FFC6C7C2">
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="596" Margin="4,25,0,0" VerticalAlignment="Top" Width="780" Background="#FFDEF58F">
+            <TabItem Header="Перевірка" FontSize="14.667">
+                <Grid Background="#FFD7D8CD" Margin="0,-4,0,1">
+                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Height="239" Width="763"/>
+                    <Label x:Name="label_Copy" Content="Ім'я " HorizontalAlignment="Left" Margin="120,55,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="30" Height="21"/>
+                    <Label x:Name="label_Copy1" Content="Прізвище" HorizontalAlignment="Left" Margin="37,55,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="55" Height="23"/>
+                    <Label x:Name="label_Copy2" Content="Група" HorizontalAlignment="Left" Margin="182,55,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="76" Height="23"/>
+                    <Label x:Name="label_Copy3" Content="Група" HorizontalAlignment="Left" Margin="55,361,0,0" VerticalAlignment="Top" FontSize="17.333" FontStyle="Italic" Width="60"/>
+                    <Label x:Name="label_Copy4" Content="Предмет" HorizontalAlignment="Left" Margin="286,363,0,0" VerticalAlignment="Top" FontSize="17.333" FontStyle="Italic" Width="86" RenderTransformOrigin="0.029,0.621"/>
+                    <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="11" Margin="102,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="11" Margin="24,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="11" Margin="176,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="26" Margin="120,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Height="26" Margin="377,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <Label x:Name="label_Copy5" Content="Перелік надісланих тестів:" HorizontalAlignment="Left" Margin="214,10,0,0" VerticalAlignment="Top" FontSize="17.333" Width="230"/>
+                    <TextBox x:Name="textBox_Copy5" HorizontalAlignment="Left" Height="11" Margin="257,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <Label x:Name="label_Copy6" Content="Предмет" HorizontalAlignment="Left" Margin="263,55,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="76" Height="23"/>
+                    <Label x:Name="label_Copy7" Content="Екзаменатор (Прізвище)" HorizontalAlignment="Left" Margin="537,55,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="126" Height="23"/>
+                    <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Height="11" Margin="563,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <CheckBox x:Name="checkBox1_Copy" Content="Сортувати за групою" HorizontalAlignment="Left" Margin="58,318,0,0" VerticalAlignment="Top" FontSize="16"/>
+                    <CheckBox x:Name="checkBox1_Copy1" Content="Сортувати за предметом" HorizontalAlignment="Left" Margin="286,318,0,0" VerticalAlignment="Top" FontSize="16" Width="224"/>
+                    <CheckBox x:Name="checkBox1_Copy2" Content="Сортувати за студентом" HorizontalAlignment="Left" Margin="563,318,0,0" VerticalAlignment="Top" FontSize="16"/>
+                    <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Height="26" Margin="657,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Background="White"/>
+                    <Label x:Name="label_Copy8" Content="Прізвище" HorizontalAlignment="Left" Margin="553,361,0,0" VerticalAlignment="Top" FontSize="17.333" FontStyle="Italic" Width="86" RenderTransformOrigin="0.029,0.621"/>
+                    <Button x:Name="button" Content="Пошук" HorizontalAlignment="Left" Margin="328,470,0,0" VerticalAlignment="Top" Width="83" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.048,-1.02"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Додати новину" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="125" FontSize="14.667" Margin="-2,0,-6,0">
+                <Grid Background="#FFB5B8A0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="4*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Margin="136,394,0,0" VerticalAlignment="Top" Height="25" Width="52" Grid.Column="1"/>
+                    <Label x:Name="label_Copy30" Content="Текст:" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" FontSize="17.333" FontStyle="Italic" Width="160"/>
+                    <TextBox x:Name="textBox_Copy33" HorizontalAlignment="Left" Height="282" Margin="10,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="754" FontSize="17.333" BorderBrush="#FF262627" BorderThickness="1" Grid.ColumnSpan="2"/>
+                    <Button x:Name="button4" Content="Оприлюднити новину" HorizontalAlignment="Left" Margin="302,474,0,0" VerticalAlignment="Top" Width="180" FontFamily="Segoe UI Black" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label_Copy23" Content="Додати файл:" HorizontalAlignment="Left" Margin="4,386,0,0" VerticalAlignment="Top" FontSize="17.333" FontStyle="Italic" Width="127" Grid.Column="1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Звіти" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="54" FontSize="14.667" Margin="-8,0,0,0">
+                <Grid Background="#FFB9B9B1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*"/>
+                        <ColumnDefinition Width="21*"/>
+                        <ColumnDefinition Width="147*"/>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="388*"/>
+                        <ColumnDefinition Width="191*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGrid2_Copy" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Height="39" Width="383" Grid.Column="4" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label5_Copy" Content="Група:" HorizontalAlignment="Left" Margin="10,-5,0,0" VerticalAlignment="Top" FontSize="17.333" FontFamily="Shruti" Width="231" Grid.Column="4"/>
+                    <DataGrid x:Name="dataGrid3_Copy" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top" Height="42" Width="383" Grid.ColumnSpan="2" Grid.Column="4"/>
+                    <CheckBox x:Name="checkBox" Content="Звіт за успішністю групи" HorizontalAlignment="Left" Margin="69,246,0,0" VerticalAlignment="Top" FontSize="16" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <CheckBox x:Name="checkBox1" Content="Коефіцієнт предмету" HorizontalAlignment="Left" Margin="69,277,0,0" VerticalAlignment="Top" FontSize="16" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <Button x:Name="button1_Copy1" Content="Друкувати" HorizontalAlignment="Left" Margin="29,456,0,0" VerticalAlignment="Top" Width="142" Grid.Column="4"/>
+                    <Button x:Name="button2_Copy" Content="Завантажити" HorizontalAlignment="Left" Margin="229,456,0,0" VerticalAlignment="Top" Width="174" Grid.ColumnSpan="2" Grid.Column="4"/>
+                    <CheckBox x:Name="checkBox2_Copy" Content="Інформація щодо проведення комісії" HorizontalAlignment="Left" Margin="69,400,0,0" VerticalAlignment="Top" FontSize="16" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <CheckBox x:Name="checkBox2_Copy1" Content="Графік успішності згідно набраних балів" HorizontalAlignment="Left" Margin="69,317,0,0" VerticalAlignment="Top" FontSize="16" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <CheckBox x:Name="checkBox2" Content="Інформація щодо боржників (недопущені до екзамену)" HorizontalAlignment="Left" Margin="69,356,0,0" VerticalAlignment="Top" FontSize="16" Height="26" Width="431" Checked="checkBox2_Checked" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <Label x:Name="label5_Copy1" Content="Предмет:" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" FontSize="17.333" FontFamily="Shruti" Width="117" Grid.Column="4" Height="37"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="868">
+            <MenuItem Header="Меню"  FontSize="13.333" Width="159">
+                <MenuItem Header="Перевірка" HorizontalAlignment="Left" Width="230" Margin="0,0,-19,0" />
+                <MenuItem Header="Додати новину" HorizontalAlignment="Left" Width="200"/>
+                <MenuItem Header="Звітність" HorizontalAlignment="Left" Width="211"/>
+            </MenuItem>
+            <MenuItem Header="Вихід" Width="50" FontSize="13.333">
+                <MenuItem Header="Завершити роботу" HorizontalAlignment="Left" Width="215" Margin="0,0,-2,0"/>
+                <MenuItem Header="Змінити користувача"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
